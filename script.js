@@ -25,7 +25,7 @@ button.addEventListener("click", (e) => {
         const status = document.querySelector("span")
         status.style.color = "red"
     }else{
-        result.innerHTML = `${bmi} is Invalid`
+        result.innerHTML = `Input is Invalid`
     }
 
     // switch (bmi) {
